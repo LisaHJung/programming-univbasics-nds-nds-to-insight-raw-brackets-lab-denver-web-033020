@@ -1,0 +1,20 @@
+def movie_with_director_name(director_name, movie_data)
+pp movie_data
+{:worldwide_gross=>2,
+ :release_year=>2014,
+ :studio=>"Karbit Poodles",
+ :title=>"The Fire Hydrant of Doom"}
+ 
+ pp director_name
+ "Byron Poodle"
+ 
+ def movies_with_director_key(name, movies_collection)
+  pp movies_collection
+[{:title=>"TestA"}, {:title=>"TestB"}]
+pp name
+"Byron Poodle"
+def gross_per_studio(collection)
+pp collection
+[{:title=>"Movie A", :studio=>"Alpha Films", :worldwide_gross=>10},
+ {:title=>"Movie B", :studio=>"Alpha Films", :worldwide_gross=>30},
+ {:title=>"Movie C", :studio=>"Omega Films", :worldwide_gross=>30}]

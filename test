@@ -1,0 +1,38 @@
+def list_of_directors(source)
+pp source
+[{:name=>"Stephen Spielberg",
+  :movies=>
+   [{:title=>"Jaws",
+     :studio=>"Universal",
+     :worldwide_gross=>260000000,
+     :release_year=>1975},
+    {:title=>"Close Encounters of the Third Kind",
+     :studio=>"Columbia",
+     :worldwide_gross=>135189114,
+     :release_year=>1977},...]}
+
+def total_gross(source)
+pp source 
+[{:name=>"Stephen Spielberg",
+  :movies=>
+   [{:title=>"Jaws",
+     :studio=>"Universal",
+     :worldwide_gross=>260000000,
+     :release_year=>1975},
+    {:title=>"Close Encounters of the Third Kind",
+     :studio=>"Columbia",
+     :worldwide_gross=>135189114,
+     :release_year=>1977},...]}
+
+pp directors_totals(source)
+{"Stephen Spielberg"=>1357566430,
+ "Russo Brothers"=>2281002470,
+ "James Cameron"=>2571020373,...}
+ 
+ 
+ pp list_of_directors
+ ["Stephen Spielberg","Russo Brothers","James Cameron"....]
+
+ 
+ 
+ 
